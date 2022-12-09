@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <!--Libreria para importar iconos de "Font awesome"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Conexion con hoja de estilos -->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio</title>
+
+</head>
+<body>
+    <!-- Seccion de inicio -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                   <h1> ALAN MORALES | INGENIERO MULTIMEDIA </h1>
+                   <nav id="nav" class="">
+                    <!--Lista de contenido (Secciones)-->
+                    <ul id="links">
+                        <li> <a href="#inicio"> INICIO </a> </li>
+                        <li> <a href="#sobremi"> ACERCA DE MI </a> </li>
+                        <li> <a href="#skills"> HABILIDADES </a> </li>
+                        <li> <a href="#contacto"> REDES Y CONTACTO </a> </li>
+                    </ul>
+                   </nav> 
+                   <!--Iconos del menu responsive-->
+                   <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                   </div>
+                   <!--Iconos redes sociales-->
+                   <div class="redes">
+                        <!--Botones con icono de la libreria "Font Awesome"-->
+                        <a href="https://www.youtube.com/channel/UCfckWPgkw6q4uych8VX-2sQ"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/alan.mg27/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/alan.moralesg.5/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@69vecesyo"><i class="fa-brands fa-tiktok"></i></a>
+                        <a class="blog" href="https://twitter.com/PortafolioAlan">BLOG TWITTER</a>
+                   </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <div class="portada">
+                    <img src="Imagenes\IntArtificial.png">
+                </div>
+                <div class="des">
+                    <p class="bienvenida"> Bienvenidos </p>
+                    <h2> Soy <span>Alan Morales</span>, Ingeniero Multimedia </h2>
+                    <p class="descripcion">En esta página podrás encontrar algunos de mis trabajos más importantes en forma de portafolio.   
+                        Además, podrás conocer algunos de mis proyectos en desarrollo junto a mis redes y contacto.</p>
+                    <a href="#portafolio">Portafolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seccion Acerca de mi-->
+    <section id="sobremi">
+        <!--Foto personal-->
+        <div class="contenedor-foto">
+            <img src="Imagenes\Foto.jpg" alt="">
+        </div>
+        <!--Texto descriptivo-->
+        <div class="sobremi">
+            <p class="titulo-seccion">
+                Acerca de Mi
+            </p>
+            <h2>
+                SOY <span>ALAN MORALES</span>
+            </h2>
+            <h3>
+                Ingeniero Multimedia
+            </h3>
+            <p> 
+                Soy estudiante de pregrado en ingeniería multimedia de la universidad San Buenaventura. Tengo cierta experiencia con medios 
+                audiovisuales impulsada por semilleros muiltimediales en la escuela de medios 'sincomillas' y por la participación en concursos
+                intercolegiados de cortos audiovisuales en el que fui ganador en la categoría 'Efectos Especiales'. También, fui segundo lugar en
+                el concurso "recrea tu foto" a nivel Bogotá, reconocido por el instituto de patrimonio cultural de Bogotá.
+            </p>
+            <a href="Otros\Hoja de Vida.pdf">Descargar Currículum</a>
+        </div>
+    </section>
+    <!-- Seccion Habilidades -->
+    <section id="skills">
+        <div class="contenedor-skills" id="skills">
+            <h2>HABILIDADES</h2>
+            <!--Audiovisuales-->
+            <h3>PRODUCCIÓN DE IMAGEN Y AUDIOVISUALES</h3>
+
+            <!--Skill: Sony vegas-->
+            <div class="skills">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span> SONY VEGAS
+                    </p>
+                    <span class="porcentaje">
+                        80%
+                    </span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso1"></div>
+                </div>
+            </div>
+
+            <!--Skill: Illustrator-->
+            <div class="skills">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span> ILLUSTRATOR
+                    </p>
+                    <span class="porcentaje">
+                        60%
+                    </span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso2"></div>
+                </div>
+            </div>
+
+            <!--Skill: Photoshop-->
+            <div class="skills">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span> PHOTOSHOP
+                    </p>
+                    <span class="porcentaje">
+                        30%
+                    </span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso3"></div>
+                </div>
+            </div>
+
+            <!--Skill: ProTools-->
+            <div class="skills">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span> PROTOOLS
+                    </p>
+                    <span class="porcentaje">
+                        20%
+                    </span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso4"></div>
+                </div>
+            </div>
+
+            <!--Skill: FL Studio-->
+            <div class="skills">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span> FL STUDIO
+                    </p>
+                    <span class="porcentaje">
+                        15%
+                    </span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso5"></div>
+                </div>
+            </div>
+
+            <h3>ANIMACION 2D Y 3D</h3>
+
+            <!--Skill: Maya-->
+            <div class="skills">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span> MAYA
+                    </p>
+                    <span class="porcentaje">
+                        65%
+                    </span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso6"></div>
+                </div>
+            </div>
+
+            <!--Skill: After Effects-->
+            <div class="skills">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span> AFTER EFFECTS
+                    </p>
+                    <span class="porcentaje">
+                        50%
+                    </span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso7"></div>
+                </div>
+            </div>
+
+            <!--Skill: Stencyl-->
+            <div class="skills">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span> STENCYL
+                    </p>
+                    <span class="porcentaje">
+                        40%
+                    </span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso8"></div>
+                </div>
+            </div>
+
+            <h3>PROGRAMACIÒN</h3>
+
+            <!--Skill: HTML Y CSS-->
+            <div class="skills">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span> HTML Y CSS
+                    </p>
+                    <span class="porcentaje">
+                        60%
+                    </span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso9"></div>
+                </div>
+            </div>
+
+            <!--Skill: Java-->
+            <div class="skills">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span> JAVA
+                    </p>
+                    <span class="porcentaje">
+                        40%
+                    </span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso10"></div>
+                </div>
+            </div>
+
+            <!--Skill: JavaScript-->
+            <div class="skills">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span>JAVASCRIPT
+                    </p>
+                    <span class="porcentaje">
+                        20%
+                    </span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso11"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Seccion Portafolio-->
+    <section id="portafolio">
+
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <a href="https://www.talenthouse.com/alan-morales"><img src="Portafolio\Imagen1.jpg" alt=""></a>
+                <div class="info">
+                    <h4>BurgerDoggy</h4>
+                    <p>Diseño Multimedia</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <a href="https://www.talenthouse.com/alan-morales"><img src="Portafolio\Imagen2.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Manejo de Luces y Reflejos</h4>
+                    <p>Dibujo Digital</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <a href="https://www.talenthouse.com/alan-morales"><img src="Portafolio\Imagen3.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Carta del Tarot 1</h4>
+                    <p>Photoshop</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <a href="https://www.talenthouse.com/alan-morales"><img src="Portafolio\Imagen4.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Carta del Tarot 2</h4>
+                    <p>Photoshop</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <a href="https://www.talenthouse.com/alan-morales"><img src="Portafolio\Imagen5.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Manejo y Manipulacion de formas</h4>
+                    <p>Illustrator</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <a href="https://www.talenthouse.com/alan-morales"><img src="Portafolio\Imagen6.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Recreacion Poster</h4>
+                    <p>Diseño Multimedia</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <a href="https://www.youtube.com/watch?v=DdIv4dHauRY"><img src="Portafolio\Imagen7.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Animacion Silvestre y Piolin</h4>
+                    <p>Wallpaper</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <a href="https://www.youtube.com/watch?v=ERN3kEh5TNQ"><img src="Portafolio\Imagen8.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Azulpo</h4>
+                    <p>Animatic</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <a href="https://www.youtube.com/watch?v=3QNhWW4gZAI"><img src="Portafolio\Imagen9.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Do i Wanna Know?</h4>
+                    <p>Motion Graphics</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <img src="Portafolio\Imagen10.jpg" alt="">
+                <div class="info">
+                    <h4>Pájaro Loco</h4>
+                    <p>Modelado 3d</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <img src="Portafolio\Imagen11.jpg" alt="">
+                <div class="info">
+                    <h4>Base Espacial</h4>
+                    <p>Manejo de Luces</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <img src="Portafolio\Imagen12.jpg" alt="">
+                <div class="info">
+                    <h4>Magma</h4>
+                    <p>Texturizado</p>
+                </div>
+            </div>
+        </div>
+
+    
+        
+    </section>
+    <!--Seccion Contacto-->
+     <section id="contacto">
+        <h3 class="titulo-seccion">
+            Contactame Ahora
+        </h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+     </section>
+     <!--Seccion Footer-->
+     <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+       </div>
+
+     </footer>
+
+     <script src="script.js"></script>
+</body>
+
+</html>
